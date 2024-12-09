@@ -37,7 +37,7 @@ public class Main {
         int timeTwo = 20;
         int timeThree = timeOne * 30 * 24;
         int timeFour = timeThree * 3;
-        int timeFive = timeFour * 11;
+        int timeFive = timeThree * 11;
         System.out.println("За " + timeTwo + " минут машина произвела " + (bottlesPerMin * timeTwo) + " бутылок");
         System.out.println("За сутки машина произвела " + (bottlesPerMin * timeThree) + " бутылок");
         System.out.println("За 3 дня машина произвела " + (bottlesPerMin * timeFour) + " бутылок");
