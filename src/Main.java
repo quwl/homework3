@@ -32,16 +32,16 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + paperEvery + " листов бумаги");
 
         System.out.println("Задание 4");
-        int bottlesPerTime1 = 16; // 16/2*time
-        int time1 = 2;
-        int time2 = 20;
-        int time3 = time1 * 30 * 24;
-        int time4 = time3 * 3;
-        int time5 = time4 * 10;
-        System.out.println("За " + time2 + " минут машина произвела " + (16/2 * time2) + " бутылок");
-        System.out.println("За сутки машина произвела " + (16/2 * time3) + " бутылок");
-        System.out.println("За 3 дня минут машина произвела " + (16/2 * time4) + " бутылок");
-        System.out.println("За 1 месяц машина произвела " + (16/2 * time5) + " бутылок");
+        int bottlesPerMin = 16/2;
+        int timeOne = 2;
+        int timeTwo = 20;
+        int timeThree = timeOne * 30 * 24;
+        int timeFour = timeThree * 3;
+        int timeFive = timeFour * 11;
+        System.out.println("За " + timeTwo + " минут машина произвела " + (bottlesPerMin * timeTwo) + " бутылок");
+        System.out.println("За сутки машина произвела " + (bottlesPerMin * timeThree) + " бутылок");
+        System.out.println("За 3 дня машина произвела " + (bottlesPerMin * timeFour) + " бутылок");
+        System.out.println("За 1 месяц машина произвела " + (bottlesPerMin * timeFive) + " бутылок");
 
         System.out.println("Задание 5");
         byte allPaint = 120;
